@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html{
+  --title-font: 'JetBrains Mono', monospace;
+  --text-font: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #2F2E41;
+  padding: 7rem 9.8rem 2.3rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+header ul{
+  display: flex;
+  gap: 6.4rem;
+  list-style: none;
+}
+
+header ul li{
+  font: 500 1.4rem var(--title-font);
+  line-height: 2.8rem;
+  color: white;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16rem;
+}
+
+.text h1, h1 span{
+  font: 700 3.6rem var(--title-font);
+  line-height: 4rem;
+  margin-bottom: 6rem;
+  color: white;
+}
+
+main p, main p span{
+  font: 400 1.6rem var(--text-font);
+  line-height: 2.8rem;
+  color: #C2C2C2;
+}
+
+main strong{
+  font-size: 1.6rem;
+}
+
+body main span{
+  color: #00BFA6;
+}
+
+.text{
+  display: grid;
+  min-width: 60rem;
+  text-align: center;
+}
+
+main p:nth-child(1){
+  margin-bottom: 2rem;
+}
+
+footer{
+  padding-top: 2.7rem;
+  border-top: 1px solid #00BFA6;
+  width: fit-content;
+
+  margin: auto;
+}
+
+footer p, footer a{
+  font: 500 1.4rem var(--title-font);
+  line-height: 2.8rem;
+  color: white;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.decoration{
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
